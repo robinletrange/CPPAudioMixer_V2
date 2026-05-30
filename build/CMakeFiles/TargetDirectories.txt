@@ -1,0 +1,3 @@
+/home/administrateur/CPPAudioMixer/build/CMakeFiles/CPPAudioMixer.dir
+/home/administrateur/CPPAudioMixer/build/CMakeFiles/edit_cache.dir
+/home/administrateur/CPPAudioMixer/build/CMakeFiles/rebuild_cache.dir
