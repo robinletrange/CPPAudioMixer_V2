@@ -6,10 +6,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package(PkgConfig REQUIRED)
-pkg_check_modules(JACK REQUIRED jack)
 pkg_check_modules(ALSA REQUIRED alsa)
 
 add_executable(CPPAudioMixer CPPAudioMixer.cpp)
 
-target_include_directories(CPPAudioMixer PRIVATE ${JACK_INCLUDE_DIRS} ${ALSA_INCLUDE_DIRS})
-target_link_libraries(CPPAudioMixer PRIVATE ${JACK_LIBRARIES} ${ALSA_LIBRARIES})
+target_include_directories(CPPAudioMixer PRIVATE ${ALSA_INCLUDE_DIRS})
+target_link_libraries(CPPAudioMixer PRIVATE ${ALSA_LIBRARIES})

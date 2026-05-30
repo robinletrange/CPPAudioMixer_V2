@@ -3,7 +3,6 @@ CPPAudioMixer: \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/crti.o \
   /usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/CPPAudioMixer.dir/CPPAudioMixer.cpp.o \
-  /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libjack.so \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libasound.so \
   /usr/lib/gcc/aarch64-linux-gnu/14/libstdc++.so \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libm.so \
@@ -41,8 +40,6 @@ CPPAudioMixer: \
 /usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o:
 
 CMakeFiles/CPPAudioMixer.dir/CPPAudioMixer.cpp.o:
-
-/usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libjack.so:
 
 /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libasound.so:
 
